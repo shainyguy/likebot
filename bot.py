@@ -11,10 +11,10 @@ from datetime import datetime, timedelta
 
 # ======================== НАСТРОЙКИ ========================
 
-TOKEN = "ВАШ_ТОКЕН_СООБЩЕСТВА"
-GROUP_ID = 123456789          # ID сообщества (без минуса)
-CHAT_ID = 1                   # ID беседы (peer_id = 2000000000 + CHAT_ID)
-ADMINS = [111111111, 222222222]  # VK ID администраторов
+TOKEN = os.environ.get("VK_TOKEN")
+GROUP_ID = int(os.environ.get("GROUP_ID", "0"))
+CHAT_ID = int(os.environ.get("CHAT_ID", "1"))
+ADMINS = list(map(int, os.environ.get("ADMINS", "").split(",")))
 
 # Правила лайк-чата
 RULES = {
