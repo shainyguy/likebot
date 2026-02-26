@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 
 # ======================== НАСТРОЙКИ ========================
 
-TOKEN = vk1.a.hCNOOFzqh3A8BiHaPi15YoPfZa2i85zLBgJogjGBcCkWVThdoUqO3XoDYv4sUdIxQnau70lnVsURvc_bqCbUYADfBNzBflnTG9ckluyBTCfVDhB-5aizVx5MHYDBKGhq1jpWBPNcKq8tT47xlqMhtbaYucGp_taIxvHuOkX-KPIXiiHp2cW2vEB6q2xON3Z4kb1UKzkEAr9KeSfwZ_HHWw
+TOKEN = "vk1.a.hCNOOFzqh3A8BiHaPi15YoPfZa2i85zLBgJogjGBcCkWVThdoUqO3XoDYv4sUdIxQnau70lnVsURvc_bqCbUYADfBNzBflnTG9ckluyBTCfVDhB-5aizVx5MHYDBKGhq1jpWBPNcKq8tT47xlqMhtbaYucGp_taIxvHuOkX-KPIXiiHp2cW2vEB6q2xON3Z4kb1UKzkEAr9KeSfwZ_HHWw"
 GROUP_ID = 236280033          # ID сообщества (без минуса)
 CHAT_ID = 210                   # ID беседы (peer_id = 2000000000 + CHAT_ID)
 ADMINS = [140519864]  # VK ID администраторов
